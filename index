@@ -15,7 +15,7 @@
 			</div>
 		</header>
 
-		<div class="logo">
+		<div class="logo2">
         <a href = "index.html"> <img class="graficlogo" src="logo2.jpg" width="350" height="115" alt="Logo2"> </a>
       <p>LENTA GrIgOrYeV</p>
       </div>
@@ -171,7 +171,7 @@
 		</div>
 	</div>
 	<footer>
-		<span>(с)Говорухина Ольга 2019</span>
+		<span>(с)Григорьев Алексей</span>
 	</footer>
 	</div>
 	</body>
