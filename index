@@ -2,18 +2,18 @@
 <html lang="ru">
 	<head>
 		<title>Задание 3</title>
-		 <link rel="stylesheet" type="text/css" href="style.css" >
-</head>
+		 <meta charset = "utf-8">
+    <link rel="stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+  </head>
 	<body>
-		<div id="_main">
-		<header class ="header">
-			<img src="logo2.jpg" alt = "Лого" title="logo">
-			<div class="header-text">
-
-			<div class = "site-name">Современные проблемы требуют современных решений</div>
+		<div class="logo">
+        <a href = "index.html"> <img class="graficlogo" src="logo.jpg" width="350" height="115" alt="Logo"> </a>
+      <p>LENTA GrIgOrYeV</p>
+			
 
 			</div>
-		</header>
+		<nav>
 
 		<div class="topnav" id="myTopnav">
           <a href="https://lenta.ru/">ГЛАВНАЯ</a>
