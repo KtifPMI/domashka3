@@ -15,82 +15,60 @@
 			</div>
 		</header>
 
-		<nav class = "navigation">
-			<a href="https://www.kubsu.ru/ru/university" class="a-html">УНИВЕРСИТЕТ</a>
-			<a href="https://www.kubsu.ru/ru/education" class="a-css">ОБРАЗОВАНИЕ</a>
-			<a href="https://www.kubsu.ru/ru/science" class="a-main">НАУКА</a>
-		</nav>
-
-<div class="main-info">
-<div class="links">
-
-<ol>
-<li>
-<a href="http://example.com"> Абсолютную гиперссылку на главную страницу сайта example.com</a>
-</li>
-<li>
-<a href="https://example.com"> Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https</a>
-</li>
-<li>
-<a href="ftp://ftp.mccme.ru/pub/not-working/uupc7.03/disk1.zip"> Ссылка на файл на сервере FTP без авторизации</a>
-</li>
-<li> 
-<a href="ftp://log123:pass123@ftp.vsu.ru/text.txt">Ссылка на файл на сервере FTP с авторизацией </a>
-</li>
-<li> 
-<a href="https://www.kubsu.ru/ru/abiturient/campaign2018">Ссылка на фрагмент другой страницы</a>
- </li>
-<li>
-<a href="#fragment">Ссылка на фрагмент текущей страницы</a>
- </li>
-<li><a href="https://www.google.ru/search?newwindow=1&source=hp">Ссылка с двумя параметрами в url</a> 
-</li>
-<li> 
-    Навигация по сайту Кубанского государственного университета
-    <br><ul>
-<li><a href="https://www.kubsu.ru/ru/university">Университет</a></li>
-<li><a href="https://www.kubsu.ru/ru/education">Образование</a></li>
-<li><a href="https://www.kubsu.ru/ru/science">Наука и инновации</a></li>
-<li><a href="https://www.kubsu.ru/ru/abiturient">Абитуриентам</a></li>
-<li><a href="https://www.kubsu.ru/ru/studlife">Студентам</a></li>
-</ul>
- </li>
-<li> 
-<a> Ссылка без href </a>
- </li>
-<li> 
-<a href=""> Ссылка с пустым href </a>
- </li>
-<li> 
-<a href="https://mail.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a>
-</li>
-<li>
-<a href="https://mail.ru/" title="Запрещенная для индексации поисковиками"><!--noindex-->Запрещенная для индексации поисковиками<!--/noindex--></a>
-</li>
-<li> 
-Ссылка на сайт <a href="https://www.kubsu.ru/">КУБГУ</a> в контексте абзаца
- </li>
-<li> 
-<a href="./norma.html">в текущем каталоге</a>
-</li>
-<li> 
-<a href="./about/norma.html">в каталоге about</a>
- </li>
-<li>
-<a href="../norma.html">в каталоге на 1 уровень выше </a>
- </li>
-<li> 
-<a href="../../norma.html">на 2 уровня выше</a>
-</li>
-<li>
-<a href=”/”> Сокращенная ссылка на главную </a>
-</li>
-<li> 
-<a href="/glob">Сокращенная ссылка на внутреннюю </a>
- </li>
-
-</ol>
-
+		<div class="logo">
+        <a href = "index.html"> <img class="graficlogo" src="logo.jpg" width="350" height="115" alt="Logo"> </a>
+      <p>LENTA GrIgOrYeV</p>
+      </div>
+      <nav>
+          <div class="topnav" id="myTopnav">
+          <a href="https://lenta.ru/">ГЛАВНАЯ</a>
+          <a href="https://lenta.ru/rubrics/ussr/">О СССР</a> 
+          <a href="https://lenta.ru/rubrics/media/">Медиа</a>
+          <a href="https://lenta.ru/rubrics/travel/">Путешествия</a> 
+          <a href="https://lenta.ru/rubrics/russia/">Россия</a> 
+          <a href="https://lenta.ru/parts/video/">Видео</a>
+      </div>
+     </nav>
+    </header>
+    <div class="links">
+    <ol>
+          <li><a href="http://example.com"> Абсолютная гиперссылка на главную страницу example.com </a></li>
+          <li><a href="https://example.com"> Абсолютная на главную сайта example.com в протоколе https </a></li>
+          <li><a href="ftp://ftp.rasla.ru/Pictures/wp_land.jpg"> Ссылка на файл на сервере FTP без авторизации</a></li>
+          <li><a href="ftp://softovichek.ru/16425246.text"> Ссылка на файл на сервере FTP с авторизацией</a></li>
+          <li><a href="http://ochprosto.com/sdelat-ssylku-na-opredelennuyu-chast-stranicy#top">Ссылка на фрагмент страницы некоторого сайта</a></li>
+          <li><a href="#yakor">Cсылка на фрагмент текущей страницы </a></li>
+          <li><a href="https://yandex.ru/search/?lr=35&text=lenta"> Ссылка с двумя параметрами URL на сайт Lenta </a></li>
+          <li> Список ссылок основной навигации на сайт Lenta
+          <ol>
+              <li><a href="https://lenta.ru/" title = "Главная" >Главная </a> </li>
+              <li><a href="https://lenta.ru/rubrics/ussr/" title="О СССР">СССР</a></li>
+              <li><a href="https://lenta.ru/rubrics/media/" title="Медиа">Медиа</a></li>
+              <li><a href="https://lenta.ru/rubrics/travel/" title="Путешествия">Путешествия </a> </li>
+              <li><a href="https://lenta.ru/rubrics/russia/" title="Россия сегодня">Россия </a> </li>
+              <li><a href="https://lenta.ru/parts/video/" title="Видео">Видео </a> </li>
+          </ol></li>
+          <li><a>Ссылка без href </a></li>
+          <li><a href=""> Ссылка с пустым href </a></li>
+          <li><a href="https://example.com" rel="nofollow">Ссылка, по которой запрещен переход поисковиками</a></li>
+          <li><a href="https://example.com"> <!--noindex-->Сслыка, запрещенаня для индексации поисковиками <!--noindex--></a></li>
+          <li><p>В США заявили о готовности обсудить возвращение к ядерной сделке с Ираном <b href="https://lenta.ru/news/2021/09/20/nuclearpower/">Подробнее</b></p></li>
+          <li><a href="https://lenta.ru/"><img src="Lenta_лого.png" alt="Lenta" width="275" height="154"></a></li>
+          <li><img src="Lenta_лого.png" alt="Lenta" width="275" height="154" usemap="#BBC">
+              <map name="BBC">
+              <area shape="circle" coords="50,50,50" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="111,50,150,130" href="https://lenta.ru/" alt="BBC">
+              <area shape="circle" coords="111,77,80" href="https://lenta.ru/" alt="BBC">
+              <area shape="rect" coords="55,55,140,99" href="https://lenta.ru/" alt="BBC">
+              </map>
+          </li>
+          <li><a href="./russian.txt">Относительная ссылка на страницу в текущем каталоге</a></li>
+          <li><a href="./about/in-depth.txt">Относительная ссылка на страницу в каталоге about</a></li>
+          <li><a href="../features.jpg">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+          <li><a href="../../media.mp4">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+          <li><a href="/">Ссылка, сокращенная на главную</a></li>
+          <li><a href="/main">Ссылка, сокращенная на внутреннюю</a></li>
+      </ol>
 
 </div>
 		<div class="main-table">
