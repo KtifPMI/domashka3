@@ -7,7 +7,7 @@
 	<body>
 		<div id="_main">
 		<header class ="header">
-			<img src="logo2.jpg" alt = "Лого" title="logo">
+			<img src="logo2.jpg" alt = "Лого" title="logo2">
 			<div class="header-text">
 
 			<div class = "site-name">Современные проблемы требуют современных решений</div>
@@ -16,7 +16,7 @@
 		</header>
 
 		<div class="logo">
-        <a href = "index.html"> <img class="graficlogo" src="logo.jpg" width="350" height="115" alt="Logo"> </a>
+        <a href = "index.html"> <img class="graficlogo" src="logo2.jpg" width="350" height="115" alt="Logo2"> </a>
       <p>LENTA GrIgOrYeV</p>
       </div>
       <nav>
